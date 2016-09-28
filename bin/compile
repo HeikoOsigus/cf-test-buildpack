@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Install JDK"
+sudo apt-get install openjdk-8-jre-headless
+
 echo "Running cache test..."
 
 BUILD_DIR=$1
